@@ -1,0 +1,8 @@
+[package]
+name = 'audio-engine'
+edition = '2024'
+version = '0.1.0'
+
+[dependencies]
+cpal = "0.18.2"
+symphonia = {version="0.6.1", features = ["mp3", "isomp4"]}

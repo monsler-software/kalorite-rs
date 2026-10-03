@@ -1,0 +1,8 @@
+[package]
+name = 'kalorite'
+edition = '2024'
+version = '0.1.0'
+
+[dependencies]
+audio-engine = {path='../audio-engine'}
+gui = {path='../gui'}
